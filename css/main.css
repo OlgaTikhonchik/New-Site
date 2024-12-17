@@ -196,7 +196,9 @@ button.outline:hover{
     top: 0;
     left: 0;
     right: 0;
+    max-width: 100%;
     background: lightcoral;
+    padding: 0;
     z-index: 1;
 }
 
@@ -207,7 +209,7 @@ button.outline:hover{
     max-width: 1600px;
     height: 60px;
     border-radius: 0;
-    background: lightcoral;
+    background: none;
     padding: 14px 40px;
     margin: 0 auto;
     
@@ -281,4 +283,19 @@ button.outline:hover{
     overflow: auto;
     padding: 16px;
     margin: 0;
+}
+
+
+
+
+/* ------------footer------------- */
+.footer{
+  background: red;
+  max-width: 100%;
+}
+
+.footer__content{
+  max-width: 1600px;
+  margin-bottom: 0;
+  
 }
